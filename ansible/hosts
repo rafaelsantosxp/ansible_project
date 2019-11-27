@@ -1,0 +1,9 @@
+[web_servers]
+192.168.56.104
+
+[db_servers]
+192.168.56.105
+
+[servers:children]
+web_servers
+db_servers
